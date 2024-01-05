@@ -1,0 +1,140 @@
+/*-------------------------------------------------------------*!*/
+#everything  {
+    width: 100%;
+    height: calc(100vh - 40px);
+    /*background: url(../img/skyline.png) center bottom no-repeat fixed;*/
+    background-size: 100%;
+    position: relative;
+    background-color: #f1f1f1;
+}
+
+/*@media (min-width: 1025px) {*/
+/*    #everything {*/
+/*        background-attachment: fixed;*/
+/*    }*/
+/*}*/
+
+
+@media (min-width: 1025px) and (max-height: 768px) {
+    #everything {
+        height: 90vh;
+    }
+}
+@media (max-height: 600px) {
+    #everything {
+        height: 120vh;
+    }
+}
+#everything .everything-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#everything h1 {
+    margin: 0 0 10px 0;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 46px;
+    font-family: "Philosopher", sans-serif;
+    color: #626262;
+}
+
+@media (max-width: 768px) {
+    #everything h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+#everything h2 {
+    color: #777;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    #everything h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+#everything  {
+    /*width: 100%;*/
+    /*height: calc(100vh - 40px);*/
+    /*background: url(../img/skyline.png) center bottom no-repeat fixed;*/
+    /*    background-size: 100%;*/
+    /*    position: relative;*/
+    background-color: #f1f1f1;
+
+}
+
+
+@media (max-height: 600px) {
+    #everything {
+        height: 90vh;
+    }
+}
+#everything .everything-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /*background-color: white;*/
+}
+
+
+#everything h1 {
+    margin: 0 0 10px 0;
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 46px;
+    font-family: "Philosopher", sans-serif;
+    color: #626262;
+
+}
+
+@media (max-width: 768px) {
+    #everything h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+#everything h2 {
+    color: #777;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    #everything h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+
+#everything .btns a:hover {
+    color: #71c55d;
+}

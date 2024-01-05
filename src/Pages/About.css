@@ -1,0 +1,259 @@
+#about {
+  /*width: 100%;*/
+  /*!*height: calc(100vh - 100px);*!*/
+  /* background: url(../../Assets/img/city-background.png) center bottom no-repeat; */
+  /*background-size: 100%;*/
+  position: relative;
+}
+
+@media (min-width: 1025px) {
+  #about {
+    background-attachment: fixed;
+  }
+}
+#about .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /*background-color: #ffffffb3;*/
+}
+
+#about h1 {
+  margin: 0 0 10px 0;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 46px;
+  font-family: "Philosopher", sans-serif;
+  color: #626262;
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#about img {
+  max-width: 95%;
+  /*margin-bottom: 30px;*/
+}
+
+/*goal section*/
+
+#goal {
+  width: 100%;
+  height: calc(100vh - 140px);
+  /* background: linear-gradient(
+      rgba(255, 2555, 255, 1),
+      rgba(32, 168, 119, 0.4),
+      rgba(32, 168, 118, 0)
+    ),
+    url(../../Assets/img/mountain-background.png) center/cover no-repeat; */
+  background-size: 100%;
+  position: relative;
+  /*,url(/sites/all/themes/bootstrap_subtheme/cdn/img/background/mountain-background.png);*/
+  /*height: 600px;*/
+  color: #fff;
+}
+/*}*/
+
+/**/
+#goal .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#goal h1 {
+  margin: 0 0 10px 0;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 46px;
+  font-family: "Philosopher", sans-serif;
+  color: #626262;
+}
+
+@media (max-width: 768px) {
+  #goal h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#goal img {
+  max-width: 95%;
+  margin-bottom: 30px;
+}
+
+/*objective*/
+
+#objective .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #ffffffb3;
+}
+
+#objective h1 {
+  margin: 0 0 10px 0;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 46px;
+  font-family: "Philosopher", sans-serif;
+  color: #626262;
+}
+
+@media (max-width: 768px) {
+  #objective h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#footer {
+  width: 20%;
+  height: calc(100vh - 40px);
+  /* background: url(../../Assets/img/city-background.png) center bottom no-repeat; */
+  background-size: 100%;
+  position: relative;
+}
+
+/*project*/
+
+#project {
+  width: 100%;
+  height: calc(60vh - 40px);
+  /* background: radial-gradient(
+      rgba(243, 142, 27, 0.7),
+      rgba(243, 142, 27, 0.7),
+      rgba(243, 142, 27, 0.7),
+      rgba(243, 142, 27, 0.7)
+    ),
+    url(../../Assets/img/projects.png) center bottom no-repeat; */
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: contain;
+  background-color: #626262;
+}
+
+/*@media (min-width: 1025px) {*/
+/*    #about {*/
+/*        background-attachment: fixed;*/
+/*    }*/
+/*}*/
+#project .project-container {
+  bottom: 0;
+  margin-top: 5%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /*margin-top: -150px;*/
+}
+
+#project h1 {
+  margin: 0 0 10px 0;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 46px;
+  font-family: "Philosopher", sans-serif;
+  color: white;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  /*margin-bottom: 50px;*/
+  /*margin-top: -150px;*/
+}
+
+@media (max-width: 800px) {
+  .page-directory-content .top-header {
+    height: 200px;
+  }
+}
+
+#project img {
+  max-width: 95%;
+  /*margin-bottom: 30px;*/
+}
+
+/*people*/
+
+#people {
+  background-color: #626262;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+/*@media (min-width: 1025px) {*/
+/*    #about {*/
+/*        background-attachment: fixed;*/
+/*    }*/
+/*}*/
+#people .people-container {
+  bottom: 0;
+  margin-top: 10%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  /*margin-top: -150px;*/
+}
+
+#people h1 {
+  margin: 0 0 10px 0;
+  font-size: 3em;
+  font-weight: 700;
+  line-height: 46px;
+  font-family: "Philosopher", sans-serif;
+  color: white;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  margin-top: -150px;
+}
+
+@media (max-width: 800px) {
+  .page-directory-content .top-header {
+    height: 200px;
+  }
+}
+
+#people img {
+  max-width: 95%;
+  /*margin-bottom: 30px;*/
+}

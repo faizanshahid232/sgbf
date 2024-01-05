@@ -1,0 +1,14 @@
+#event {
+    background-image: radial-gradient(rgba(245,211,40,0.2),rgba(245,211,40,0.4)
+    ,rgba(245,211,40,0.5),rgba(2245,211,40,0.1)),url(../img/conferences.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-left: -20px;
+    margin-right: -20px;
+    width: 100%;
+    height: calc(70vh - 40px);
+}
+
+
+
+

@@ -1,0 +1,131 @@
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#member-images {
+    width: 100%;
+    height: calc(103vh - 255px);
+    background: linear-gradient(rgba(255,2555,255,1),rgba(255,255,255,0.5)),url(../img/ocean-background.png) center bottom no-repeat fixed;
+    background-size: 100%;
+    position: relative;
+    margin-top: 40px;
+
+}
+
+@media (min-width: 1025px) {
+    #member {
+        background-attachment: fixed;
+    }
+}
+
+@media (min-width: 1025px) and (max-height: 768px) {
+    #member {
+        height: 100vh;
+    }
+}
+
+@media (max-height: 600px) {
+    #member {
+        height: 200vh;
+    }
+    .member_1{
+        font-size: unset!important;
+    }
+    #member-images{
+        height: calc(82vh - 255px) !important;
+    }
+    #member-access{
+        margin-top: -371px!important;
+    }
+}
+
+#member .member-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#member h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    font-family: "Philosopher", sans-serif;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #member h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+#member h2 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    #member h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+#member img {
+    max-width: 95%;
+    /*margin-bottom: 30px;*/
+}
+
+#member .btn-get-started {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 11px 36px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+    border: 2px solid #71c55d;
+    background: #fff;
+    color: white;
+    text-decoration: none;
+}
+
+#member .btn-get-started:hover {
+    background: #71c55d;
+    color: #fff;
+}
+
+#member .btns a {
+    color: #555;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 4px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+@media (max-width: 575px) {
+    #member .btns a {
+        margin: 4px 8px;
+    }
+}
+
+#member .btns a:hover {
+    color: #71c55d;
+}

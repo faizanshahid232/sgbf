@@ -1,0 +1,22 @@
+.customNav {
+  color: #626262 !important;
+  padding-top: 46px;
+  padding-bottom: 46px;
+  font-family: "jaf-bernina-sans" !important;
+}
+.fontNav:hover {
+  color: #dc5949 !important;
+}
+.fontNav {
+  position: relative;
+  margin-left: 15px;
+  color: #626262 !important;
+  margin-right: 15px;
+  font-family: "jaf-bernina-sans" !important;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+.hovercolor:hover {
+  color: #dc5949 !important;
+}

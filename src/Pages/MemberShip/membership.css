@@ -1,0 +1,58 @@
+.btn-get-started:hover {
+  background-color: transparent !important;
+  color: #0a0a0a !important;
+  border: 0.6px solid #00882a !important;
+}
+.member_1 {
+  color: #626262;
+  margin-top: 40px;
+  font-size: 3em;
+  line-height: 1.25;
+  font-family: "jaf-bernina-sans";
+}
+.p_mob {
+  margin-bottom: 20px;
+  color: #626262;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+@media (max-width: 1095px) {
+  .mo_screen {
+    margin: auto !important;
+    width: 76% !important;
+    text-align: center !important;
+  }
+  .hero-container {
+    top: -340px !important;
+  }
+  .p_class {
+    padding: 81px;
+  }
+  .ml_class {
+    margin-left: 42px;
+  }
+  .ml_1_class {
+    margin-right: -37px;
+  }
+  #member-access {
+    margin-top: -350px !important;
+  }
+  #hero {
+    height: calc(65vh - 65px) !important;
+  }
+  #member-images {
+    height: calc(35vh - -197px) !important;
+  }
+  .member_1 {
+    position: absolute;
+    margin-top: 240px !important;
+  }
+  .p_mob {
+    margin-top: 310px !important;
+    position: absolute;
+  }
+}
+#hero {
+  position: relative;
+}
